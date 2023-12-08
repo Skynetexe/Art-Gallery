@@ -22,9 +22,8 @@ nav {
 }
 
 .logo {
+    height: 100px;
     float: right;
-    width: 100px;
-    height: auto;
 }
 
 nav ul {
@@ -47,13 +46,19 @@ nav ul li {
 
 nav a {
     color: var(--color4);
-    filter: brightness(20%);
+    filter: brightness(10%);
     text-decoration: none;
+    font-weight: bold;
 }
 
 body {
     background-color: var(--color5);
     margin: 0px;
+    background-image: url('images/logo.png');
+    background-repeat: no-repeat;
+    background-position:top;
+    background-size: 15%;
+
 }
 
 main {
@@ -86,4 +91,5 @@ footer {
     filter: brightness(90%) hue-rotate(-10deg);
     text-align: center;
     font-size: small;
+    padding-left: 10px;
 }
