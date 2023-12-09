@@ -15,36 +15,13 @@
     --color5: #312D33;
 }
 
-body.animated {
-    animation: bodybg 2s ease-in-out;
-  }
-  
-@keyframes bodybg {
-    from {
-        background-color: var(--color5);
-    }
-
-    to {
-        background-color: #332F21;
-    }
-}
-
-body.color-changed {
-    background-color: #000000;
-  }
-
-.yellow:hover {
-    --color1: #CCB770;
-    --color2: #999073;
-    --color3: #FFD95A;
-    --color4: #666257;
-    --color5: #332F21;
-}
-
 nav {
     width: 100%;
     background-image: linear-gradient(to right, var(--color3) 10%, transparent 60%, transparent);
     background-color: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
 .logo {
@@ -103,6 +80,8 @@ h1 {
     font-size: 300%;
     text-align: center;
     text-shadow: 3px 2px var(--color5);
+    margin: auto;
+    margin-top: 70px;
 }
 
 footer {
