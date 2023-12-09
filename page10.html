@@ -28,8 +28,33 @@
         <h1>
             Contact Us
         </h1>
-        <p>Here comes your form</p>
+        <aside class="middle">
+            <p>Here comes your form</p>
+            <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" name="email"><br><br>
+                
+                <p>Select gender:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+    
+                <p>Why are you filling this out?</p>
+                <input type="checkbox" id="interest1" name="interest1" value="interest1">
+                <label for="interest1">I want to make a complaint</label><br>
+                <input type="checkbox" id="interest2" name="interest2" value="interest2">
+                <label for="interest2">I want to give you a compliment</label><br><br>
+    
+                <input type="submit" value="Submit">
+            </form>
 
+            <p>If you click the "Submit" button, the form-data will be sent to a page called "<a href="https://libraryofbabel.info/">The Library of Babel</a>".</p>
+        </aside>
         <script src="script.js"></script>
     </main>
     <footer>

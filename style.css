@@ -157,6 +157,11 @@ td {
     margin-top: 6%;
 }
 
+form {
+    color: var(--color5);
+    filter: brightness(350%) hue-rotate(-25deg);
+    font-family: Arial, sans-serif;
+}
 
 
 #slider {
