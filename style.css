@@ -56,13 +56,11 @@ nav a {
 
 body {
     background-color: var(--color5);
-    margin: 0px;
+    margin: auto;
     background-image: url('images/logo.png');
     background-repeat: no-repeat;
     background-position: top;
     background-size: 12%;
-    width: 1900px;
-
 }
 
 main {
@@ -148,13 +146,16 @@ td {
     padding: 5px;
 }
 
-.renRight{
+.renRight {
     float: left;
     margin-top: 100px;
     margin-left: 10%;
 }
 
-
+.middle {
+    margin: auto;
+    margin-top: 6%;
+}
 
 
 
